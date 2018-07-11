@@ -1,0 +1,46 @@
+@import './reset.scss';
+html,body,#out,.app{
+    width:100%;
+    height:100%
+}
+li{
+    list-style: none;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+}
+section{
+    width:100%;
+    height:100%;
+    @include flexbox(1);//弹性盒布局
+    @include flex-direction(column);//column表示竖直方向
+//  @include root-scroll(true);
+    overflow: auto;
+//  margin-bottom:0.5rem ;
+    flex: 1;
+}
+footer{
+    border-top:1px solid #e1e1e1;
+    width: 100%;
+//  position: fixed;
+//  bottom: 0;
+    
+    height:0.5rem;
+    background:#f9f2f2;
+    ul{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        li{
+            padding-top: 0.05rem;
+            flex: 1;
+            text-align: center;
+            a{
+                color: #666;
+                font-size: 0.14rem;
+            }
+        }
+    }
+    
+}

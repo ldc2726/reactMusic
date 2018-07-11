@@ -1,0 +1,194 @@
+#findsong{
+    width: 100%; 
+    #findHead{
+      width: 100%;  
+      .head{
+          background: #f66;
+          .record{
+              color: #fff;
+              display: inline-block;
+              width: 10%;
+              font-size: 22px;
+              float: left;
+              text-align: center;
+              margin-top: 0.07rem;
+          }
+          .seach{
+              width: 80%;
+              display: inline-block;
+              .am-search{
+                  background: #f66;
+              }
+          }
+          .player{
+              color: #fff;
+              display: inline-block;
+              width: 10%;
+              font-size: 22px;
+              float: right;
+              text-align: center;
+              margin-top: 0.07rem;
+          }
+          
+      }
+
+    }
+    .space-carousel{
+      padding: 0.1rem 0.16rem 0.1rem 0.16rem;
+    }
+    slider-decorator-0{
+      left: 0;
+    }
+    .am-tabs-tab-bar-wrap{
+      .am-tabs-default-bar-content{
+          background: #f66;
+          .am-tabs-default-bar-tab-active{
+              color: #fff;
+          }
+          .am-badge{
+              color: #fff;
+          }
+          .am-tabs-default-bar-underline{
+                  border: 1px #fff solid;
+          }
+      }
+  }
+  .banner{
+    //height: 1.5rem;
+    width: 100%;
+  }
+  h2{
+    width: 100%;
+    padding-left: 0.09rem;
+    margin-top: 0.09rem;
+    font-weight: 500;
+    font-size: 0.17rem;
+    height: 0.2rem;
+    line-height:0.2rem;
+    border-left: 2px solid #f66;
+  }
+  .recm_songs{
+    width: 100%;
+    height: auto;
+    min-height: 3.2rem;
+    margin-top: 0.2rem;
+    ul{
+      width: 100%;
+      height: auto;
+      li{
+        width: 100%;
+        height: auto;
+        display: inline-block;
+        width: 30%;
+        float: left;
+        margin-left: 2%;
+        margin-top: 0.01rem;
+        //height: 1.12rem;
+        a{
+          width: 100%;
+          height: 100%;
+          display: inline-block;
+          img{
+            width: 100%;
+            height: 1.12rem;
+          }
+        }
+        p{
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: box;
+          display: -webkit-box;
+          line-clamp: 2;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          font-size: 14px;
+          color: #333;
+        }
+      }
+    }
+  }
+  .news_songs{
+    width: 100%;
+    height: auto;
+    min-height: 3.2rem;
+    margin-top: 0.2rem;
+    ul{
+      width: 100%;
+      height: auto;
+      li{
+        position: relative;
+        width: 100%;
+        height: 0.5rem;
+        box-sizing: border-box;
+        padding-left: 0.1rem;
+        a{
+          border-bottom: 1px solid #ccc;
+          width: 100%;
+          height: 100%;
+          display:block;
+          p{
+            font-size: 0.12rem;
+            color: #888;
+            em{
+              display: inline-block;
+              width:  0.12rem;
+              height:  0.08rem;
+              background: url('https://s3.music.126.net/m/s/img/index_icon_2x.png?5207a28c3767992ca4bb6d4887c74880') no-repeat;
+              background-size: 166px 97px;
+              //margin-bottom: 0.05rem;
+            }
+          }
+          .singer_name{
+            margin-right: 0.05rem;
+          }
+          .song_name{
+            margin-top: 0.05rem;
+            color: #333;
+            font-size: 0.16rem;
+          }
+        }
+        i{
+          position: absolute;
+          right: 0.3rem;
+          top: 0.05rem;
+          font-size: 0.24rem;
+          color: #999;
+        }
+      }
+    }
+  }
+  .foot_logo{
+    background: url("https://s3.music.126.net/m/s/img/recommand_bg_2x.png?d045fafc60e017b653f8065a87496922")no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+    height: 1.5rem;
+    .logo{
+      width:80%;
+      margin-left: 10%;
+      margin-top: 0.5rem;
+      height: 0.4rem;
+    }
+  }
+  .copyright{
+    color: #888;
+    font-size: 0.12rem;
+    line-height: 0.16rem;
+    text-align: center;
+    padding-bottom: 0.2rem;
+  }
+}
+.space-carousel {
+  padding: 16px;
+  background: #DEF1E5;
+  overflow: hidden;
+}
+.sub-title {
+  color: #888;
+  font-size: 14px;
+  padding: 30px 0 18px 0;
+}
+.songs_list{
+  z-index: 9999;
+}
